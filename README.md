@@ -1,36 +1,40 @@
-# 📊 React Intern Assignment – Spreadsheet Prototype
 
-This project is a front-end-only prototype that replicates a spreadsheet interface based on a provided Figma design. It mimics the look and feel of tools like Google Sheets or Excel using modern React tooling.
+# 📄 React Spreadsheet Prototype
 
-## 🚀 Live Demo
-
+This project is a static front-end prototype built to visually replicate a spreadsheet interface based on a provided Figma design. It includes basic interactivity such as editable cells and clickable buttons/tabs.
 
 ---
 
-## ✨ Features
+## ⚙️ Setup Instructions
 
-- ✅ Pixel-perfect layout matching the Figma spec
-- ✅ Spreadsheet-style table with editable cells
-- ✅ Responsive tabs/buttons with state change or console logs
-- ✅ Built with React 18 + TypeScript + Tailwind CSS
-- ✅ Linting and strict type-checking enabled
-- 🧪 Stretch goals: keyboard navigation and column resizing (if implemented)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/spreadsheet-prototype.git
+   cd spreadsheet-prototype
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Run lint and type checks**
+
+   ```bash
+   npm run lint
+   npm run type-check
+   ```
 
 ---
-
-## 🛠 Tech Stack
-
-- [React 18](https://reactjs.org/)
-- [TypeScript (strict mode)](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [`react-table`](https://tanstack.com/table) *(or custom grid logic)*
-- ESLint + Prettier for code style and formatting
-
----
-
-## 📦 Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/your-username/react-intern-assignment.git
-cd react-intern-assignment
+⚖️ Trade-offs & Notes
+- This is just a visual demo, not a real working app.
+- Cell edits don’t save; they only show in the console.
+- Tabs and buttons work but don’t change the data.
+- Hard features like formulas were skipped to save time.
+- Keyboard moves and column resizing may not work yet.
